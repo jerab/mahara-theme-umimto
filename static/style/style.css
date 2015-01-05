@@ -44,6 +44,7 @@ body {
 #main-nav {
     padding: 0px;
     margin: 0px;
+    background: none;
 }
 
 #main-column-container {
@@ -86,9 +87,13 @@ body {
 }
 
 #sub-nav {
-    background-image: none;
-    background-color: #d2e9a5;
+    background-image: none;    
     margin-top: 1px;
+    background: none;
+}
+
+#sub-nav > ul {
+	background-color: #d2e9a5;
 }
 
 #sub-nav li {
@@ -240,5 +245,11 @@ h1,h2,h3,h4,h5,h6 {
 }
 .home-info-table {
     border: 0;
+}
+
+#loginform_container #login_login_container {
+	border-radius: 0;
+	padding: 0;
+	background: none;
 }
 
